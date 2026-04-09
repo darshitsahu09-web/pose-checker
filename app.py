@@ -22,7 +22,8 @@ poses = {
         "swords": ["Diamond Aegis"]
     },
 
-    "laidback": {
+     "Laidback": {
+        "aliases": ["laidback", "laid"],
         "price": "600m+-",
         "status": "Stable",
         "swords": ["Divine Shadow"]
