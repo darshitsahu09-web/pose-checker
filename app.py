@@ -14,13 +14,13 @@ poses = {
     # High Tier
     "authority": {
         "price": "2.5b+-",
-        "status": "Rising 📈",
+        "status": "Stable",
         "swords": ["Diamond Aegis"]
     },
 
     "laidback": {
-        "price": "600m+-",
-        "status": "Stable ⚖️",
+        "price": "580m+-",
+        "status": "Stable",
         "swords": ["Divine Shadow"]
     },
 
@@ -32,7 +32,7 @@ poses = {
 
     "gracebound": {
         "price": "300m-",
-        "status": "Falling 📉",
+        "status": "Stable",
         "swords": ["Crystal Dahlia"]
     },
 
@@ -43,13 +43,13 @@ poses = {
     },
 
     "driftfall": {
-        "price": "180m+",
+        "price": "190m+",
         "status": "Rising",
         "swords": ["Fallen Aphelion"]
     },
 
     "reckless": {
-        "price": "300m+",
+        "price": "345m+",
         "status": "Rising",
         "swords": ["Colossal Blazehead", "Nutcracker"]
     },
@@ -62,7 +62,7 @@ poses = {
 
     "backlash": {
         "price": "150m+-",
-        "status": "Rising",
+        "status": "Stable",
         "swords": ["Enigma", "Cyber Enigma", "Winter Scythe", "Eclipse X", "Protector"]
     },
 
