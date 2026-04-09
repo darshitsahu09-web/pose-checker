@@ -212,49 +212,49 @@ finishers = {
     "thousanddeaths": {
         "price": "40m",
         "status": "Stable",
-        "swords": ["Finisher"]
+        "swords": ["Limited Pack"]
     },
 
     "hanabatake": {
         "price": "10m-",
         "status": "Stable",
-        "swords": ["Finisher"]
+        "swords": ["Limited Pack"]
     },
 
     "gamblertoss": {
         "price": "6m+-",
         "status": "Stable",
-        "swords": ["Finisher"]
+        "swords": ["Limited Pack"]
     },
 
     "jinglebarrage": {
         "price": "1m+-",
         "status": "Stable",
-        "swords": ["Finisher"]
+        "swords": ["Limited Pack"]
     },
 
     "soulreaper": {
         "price": "15m+-",
         "status": "Stable",
-        "swords": ["Finisher"]
+        "swords": ["Limited Pack"]
     },
 
     "cupidstrap": {
         "price": "20m+-",
         "status": "Stable",
-        "swords": ["Finisher"]
+        "swords": ["Limited Pack"]
     },
 
     "hairslick": {
         "price": "25m-30m",
         "status": "Stable",
-        "swords": ["Finisher"]
+        "swords": ["Limited Pack"]
     },
 
     "colossaldrill": {
         "price": "10m-15m",
         "status": "Stable",
-        "swords": ["Finisher"]
+        "swords": ["Limited Pack"]
     }
 
 }
