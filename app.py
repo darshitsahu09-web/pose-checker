@@ -202,7 +202,7 @@ poses = {
         "swords": ["Devotion"]
     }
 
-}
+
 
 
 # ---------------- FINISHERS ---------------- #
