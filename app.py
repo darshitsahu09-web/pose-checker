@@ -196,12 +196,13 @@ poses = {
         "swords": ["Cyber Hammer"]
     },
 
-    "devoted": {
+      "devoted": {
         "price": "300m+",
         "status": "Stable",
         "swords": ["Devotion"]
     }
 
+}
 
 
 
@@ -294,12 +295,13 @@ books = {
         "swords": ["Book"]
     },
 
-    "rosebooks": {
+      "rosebooks": {
         "price": "600k",
         "status": "Stable",
         "swords": ["Book"]
     }
 
+}
 
 # ---------------- UI ---------------- #
 
