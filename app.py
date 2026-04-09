@@ -283,42 +283,42 @@ books = {
         "aliases": ["cyber", "cyberbook", "cyber books"],
         "price": "20m",
         "status": "Stable",
-        "swords": ["Book"]
+        "swords": ["Limited Store"]
     },
 
     "shadowbooks": {
         "aliases": ["shadow", "shadowbook"],
         "price": "5m+-",
         "status": "Stable",
-        "swords": ["Book"]
+        "swords": ["Limited Store"]
     },
 
     "dragonbooks": {
         "aliases": ["dragon", "dragonbook"],
         "price": "1.5m+",
         "status": "Stable",
-        "swords": ["Book"]
+        "swords": ["Limited Store"]
     },
 
     "cosmicbooks": {
         "aliases": ["cosmic", "cosmicbook"],
         "price": "3.5m+-",
         "status": "Stable",
-        "swords": ["Book"]
+        "swords": ["Limited Store"]
     },
 
     "skybooks": {
         "aliases": ["sky", "skybook"],
         "price": "2m",
         "status": "Stable",
-        "swords": ["Book"]
+        "swords": ["----"]
     },
 
     "rosebooks": {
         "aliases": ["rose", "rosebook"],
         "price": "600k",
         "status": "Stable",
-        "swords": ["Book"]
+        "swords": ["----"]
     }
 
 }
