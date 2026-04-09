@@ -152,6 +152,8 @@ poses = {
     "battlefan": {"price": "2.5m+-", "status": "Stable", "swords": ["Wheel"]},
     "bow": {"price": "2m+-", "status": "Stable", "swords": ["Wheel"]},
     "triscythe": {"price": "2m+-", "status": "Stable", "swords": ["Wheel"]},
+    "skyrest": {"price": "1m-", "status": "Stable", "swords": ["Pose Pack"]},
+    "jitter": {"price": "1m-", "status": "Stable", "swords": ["Pose Pack"]},
 
     # Newly Added
 
