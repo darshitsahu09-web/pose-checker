@@ -1,44 +1,66 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Pose Value Checker",
+    page_icon="⚔️",
+    layout="centered"
+)
+
 def normalize(text):
     return text.lower().replace(" ", "")
 
 poses = {
     "authority": {
         "price": "2.5b+-",
-        "demand": "Extremely High",
-        "status": "Rising",
+        "demand": "Extremely High 🔥",
+        "status": "Rising 📈",
         "swords": ["Diamond Aegis"]
     },
 
     "laidback": {
         "price": "600m+-",
         "demand": "High",
-        "status": "Stable",
+        "status": "Stable ⚖️",
         "swords": ["Divine Shadow"]
     }
 }
 
-st.title("Pose Value Checker")
+# Title
+st.title("⚔️ Pose Value Checker")
+st.markdown("Check pose **price, demand, status, and swords** instantly")
 
-user_input = st.text_input("Enter Pose Name")
+st.divider()
+
+# Input Box
+user_input = st.text_input("🔍 Enter Pose Name", placeholder="Example: Authority")
 
 if user_input:
     normalized_input = normalize(user_input)
+
+    found = False
 
     for pose in poses:
         if normalize(pose) == normalized_input:
             data = poses[pose]
 
-            st.header(pose.title())
-            st.write("Price:", data["price"])
-            st.write("Demand:", data["demand"])
-            st.write("Status:", data["status"])
+            st.success(f"Found: {pose.title()}")
 
-            st.write("Swords:")
+            col1, col2 = st.columns(2)
+
+            with col1:
+                st.metric("💰 Price", data["price"])
+                st.metric("📈 Demand", data["demand"])
+
+            with col2:
+                st.metric("📊 Status", data["status"])
+
+            st.subheader("🗡️ Obtainable From")
+
             for sword in data["swords"]:
-                st.write("-", sword)
+                st.markdown(f"- **{sword}**")
 
+            found = True
             break
-    else:
-        st.write("Pose not found")
+
+    if not found:
+        st.error("Pose not found")
