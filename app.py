@@ -174,7 +174,7 @@ poses = {
      "airsurf": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
      "cyclone": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
      "crowned": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "imfine": {
+    "i'mfine": {
     "aliases": [
         "i'm fine",
         "im fine",
