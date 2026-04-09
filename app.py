@@ -207,7 +207,7 @@ poses = {
     },
 
     "pendrath": {
-        "price": "150m-",
+        "price": "100m+-",
         "status": "Stable",
         "swords": ["Cyber Hammer"]
     },
