@@ -154,6 +154,24 @@ poses = {
     "triscythe": {"price": "2m+-", "status": "Stable", "swords": ["Wheel"]},
     "skyrest": {"price": "1m-", "status": "Stable", "swords": ["Pose Pack"]},
     "jitter": {"price": "1m-", "status": "Stable", "swords": ["Pose Pack"]},
+    "stand": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "balance": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "protector": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "watchpoint": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "prepared": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "headoff": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "serenity": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "glory": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "override": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "overclock": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "whirlcut": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
+     "ready": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
+     "airsurf": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
+     "cyclone": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
+     "I'm fine": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
+     "crowned": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    
+    
 
     # Newly Added
 
@@ -164,7 +182,7 @@ poses = {
     },
 
     "resonance": {
-        "price": "90m-100m",
+        "price": "80-90m",
         "status": "Stable",
         "swords": ["Lumina"]
     },
