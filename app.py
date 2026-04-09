@@ -327,84 +327,121 @@ books = {
 skins = {
 
     "bloodblue": {
-        "aliases": ["blood blue"],
+        "aliases": ["blood blue", "bloodblue skin", "blue blood"],
         "price": "10m-",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "bloodpink": {
-        "aliases": ["blood pink"],
+        "aliases": ["blood pink", "bloodpink skin", "pink blood"],
         "price": "10m-",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "radiantwing": {
-        "aliases": ["radiant wing"],
+        "aliases": ["radiant wing", "radiant wings", "radiant"],
         "price": "15m+",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "voidwing": {
-        "aliases": ["void wing"],
+        "aliases": ["void wing", "void wings", "void"],
         "price": "15m+",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "blazingarmour": {
-        "aliases": ["blazing armour", "blazing armor"],
+        "aliases": [
+            "blazing armour",
+            "blazing armor",
+            "blazing",
+            "blaze armour",
+            "blaze armor"
+        ],
         "price": "6m+-",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "flaringarmour": {
-        "aliases": ["flaring armour", "flaring armor"],
+        "aliases": [
+            "flaring armour",
+            "flaring armor",
+            "flaring",
+            "flare armour",
+            "flare armor"
+        ],
         "price": "6m+-",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "crypticvision": {
-        "aliases": ["cryptic vision"],
+        "aliases": [
+            "cryptic vision",
+            "cryptic",
+            "vision cryptic"
+        ],
         "price": "5m+-",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "player654": {
-        "aliases": ["player 654"],
+        "aliases": [
+            "player 654",
+            "654",
+            "player654 skin"
+        ],
         "price": "1m+-",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "plagueskin": {
-        "aliases": ["plague skin"],
+        "aliases": [
+            "plague skin",
+            "plague",
+            "plague skin pack"
+        ],
         "price": "1.5m+-",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "visarawings": {
-        "aliases": ["visara wings", "visara wing"],
+        "aliases": [
+            "visara wings",
+            "visara wing",
+            "visara",
+            "visara skin"
+        ],
         "price": "2m+-",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "marblecloak": {
-        "aliases": ["marble cloak"],
+        "aliases": [
+            "marble cloak",
+            "marble",
+            "marble skin"
+        ],
         "price": "120m+",
         "status": "Stable",
         "swords": ["Limited Pack"]
     },
 
     "royalecloak": {
-        "aliases": ["royale cloak"],
+        "aliases": [
+            "royale cloak",
+            "royale",
+            "royal cloak"
+        ],
         "price": "2m+-",
         "status": "Stable",
         "swords": ["Limited Pack"]
