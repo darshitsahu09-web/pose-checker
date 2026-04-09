@@ -260,13 +260,54 @@ finishers = {
 }
 
 
+# ---------------- BOOKS ---------------- #
+
+books = {
+
+    "cyberbooks": {
+        "price": "20m",
+        "status": "Stable",
+        "swords": ["Book"]
+    },
+
+    "shadowbooks": {
+        "price": "5m+-",
+        "status": "Stable",
+        "swords": ["Book"]
+    },
+
+    "dragonbooks": {
+        "price": "1.5m+",
+        "status": "Stable",
+        "swords": ["Book"]
+    },
+
+    "cosmicbooks": {
+        "price": "3.5m+-",
+        "status": "Stable",
+        "swords": ["Book"]
+    },
+
+    "skybooks": {
+        "price": "2m",
+        "status": "Stable",
+        "swords": ["Book"]
+    },
+
+    "rosebooks": {
+        "price": "600k",
+        "status": "Stable",
+        "swords": ["Book"]
+    }
+
+
 # ---------------- UI ---------------- #
 
 st.title("⚔️ Death Ball Values")
 
 category = st.selectbox(
     "Select Category",
-    ["Poses", "Finishers"]
+    ["Poses", "Finishers", "Books"]
 )
 
 st.divider()
@@ -314,3 +355,6 @@ if user_input:
 
     if category == "Finishers":
         search(finishers)
+
+    if category == "Books":
+        search(books)
