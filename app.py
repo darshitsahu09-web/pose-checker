@@ -154,6 +154,9 @@ poses = {
     "battlefan": {"price": "2.5m+-", "status": "Stable", "swords": ["Wheel"]},
     "bow": {"price": "2m+-", "status": "Stable", "swords": ["Wheel"]},
     "triscythe": {"price": "2m+-", "status": "Stable", "swords": ["Wheel"]},
+    
+    #Pack Poses
+    
     "skyrest": {"price": "1m-", "status": "Stable", "swords": ["Pose Pack"]},
     "jitter": {"price": "1m-", "status": "Stable", "swords": ["Pose Pack"]},
     "stand": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
@@ -170,8 +173,19 @@ poses = {
      "ready": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
      "airsurf": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
      "cyclone": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
-     "I'm fine": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
      "crowned": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "imfine": {
+    "aliases": [
+        "i'm fine",
+        "im fine",
+        "i am fine",
+        "fine pose",
+        "fine"
+    ],
+    "price": "500k+-",
+    "status": "Stable",
+    "swords": ["Pose Pack"]
+},
     
     
 
