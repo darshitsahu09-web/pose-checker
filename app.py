@@ -322,13 +322,104 @@ books = {
 }
 
 
+# ---------------- SKINS ---------------- #
+
+skins = {
+
+    "bloodblue": {
+        "aliases": ["blood blue"],
+        "price": "10m-",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "bloodpink": {
+        "aliases": ["blood pink"],
+        "price": "10m-",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "radiantwing": {
+        "aliases": ["radiant wing"],
+        "price": "15m+",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "voidwing": {
+        "aliases": ["void wing"],
+        "price": "15m+",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "blazingarmour": {
+        "aliases": ["blazing armour", "blazing armor"],
+        "price": "6m+-",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "flaringarmour": {
+        "aliases": ["flaring armour", "flaring armor"],
+        "price": "6m+-",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "crypticvision": {
+        "aliases": ["cryptic vision"],
+        "price": "5m+-",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "player654": {
+        "aliases": ["player 654"],
+        "price": "1m+-",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "plagueskin": {
+        "aliases": ["plague skin"],
+        "price": "1.5m+-",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "visarawings": {
+        "aliases": ["visara wings", "visara wing"],
+        "price": "2m+-",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "marblecloak": {
+        "aliases": ["marble cloak"],
+        "price": "120m+",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    },
+
+    "royalecloak": {
+        "aliases": ["royale cloak"],
+        "price": "2m+-",
+        "status": "Stable",
+        "swords": ["Limited Pack"]
+    }
+
+}
+
+
 # ---------------- UI ---------------- #
 
 st.title("⚔️ Death Ball Values")
 
 category = st.selectbox(
     "Select Category",
-    ["Poses", "Finishers", "Books"]
+    ["Poses", "Finishers", "Books","Skins"]
 )
 
 st.divider()
@@ -383,6 +474,9 @@ if user_input:
 
     if category == "Books":
         search(books)
+
+    if category == "Skins":
+        search(skins)
 
 
     
