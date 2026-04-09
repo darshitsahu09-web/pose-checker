@@ -6,37 +6,7 @@ st.set_page_config(
     layout="centered"
 )
 
-# ---------------- BACKGROUND ---------------- #
 
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background: transparent;
-    }
-
-    .stApp::before {
-        content: "";
-        background: url("deathball_bg.png");
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        opacity: 0.12;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-    }
-
-    .block-container {
-        padding-top: 2rem;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 def normalize(text):
     return text.lower().replace(" ", "").replace("'", "")
