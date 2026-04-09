@@ -1,13 +1,16 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Pose Value Checker",
+    page_title="Death Ball Values",
     page_icon="⚔️",
     layout="centered"
 )
 
 def normalize(text):
     return text.lower().replace(" ", "")
+
+
+# ---------------- POSES ---------------- #
 
 poses = {
 
@@ -202,41 +205,112 @@ poses = {
 }
 
 
-st.title("⚔️ Pose Value Checker")
-st.markdown("Check **price, status and obtain method** instantly")
+# ---------------- FINISHERS ---------------- #
+
+finishers = {
+
+    "thousanddeaths": {
+        "price": "40m",
+        "status": "Stable",
+        "swords": ["Finisher"]
+    },
+
+    "hanabatake": {
+        "price": "10m-",
+        "status": "Stable",
+        "swords": ["Finisher"]
+    },
+
+    "gamblertoss": {
+        "price": "6m+-",
+        "status": "Stable",
+        "swords": ["Finisher"]
+    },
+
+    "jinglebarrage": {
+        "price": "1m+-",
+        "status": "Stable",
+        "swords": ["Finisher"]
+    },
+
+    "soulreaper": {
+        "price": "15m+-",
+        "status": "Stable",
+        "swords": ["Finisher"]
+    },
+
+    "cupidstrap": {
+        "price": "20m+-",
+        "status": "Stable",
+        "swords": ["Finisher"]
+    },
+
+    "hairslick": {
+        "price": "25m-30m",
+        "status": "Stable",
+        "swords": ["Finisher"]
+    },
+
+    "colossaldrill": {
+        "price": "10m-15m",
+        "status": "Stable",
+        "swords": ["Finisher"]
+    }
+
+}
+
+
+# ---------------- UI ---------------- #
+
+st.title("⚔️ Death Ball Values")
+
+category = st.selectbox(
+    "Select Category",
+    ["Poses", "Finishers"]
+)
 
 st.divider()
 
 user_input = st.text_input(
-    "🔍 Enter Pose Name",
+    "🔍 Enter Name",
     placeholder="Example: Authority"
 )
 
-if user_input:
+
+def search(data):
+
     normalized_input = normalize(user_input)
-    found = False
 
-    for pose in poses:
-        if normalize(pose) == normalized_input:
-            data = poses[pose]
+    for item in data:
 
-            st.success(f"Found: {pose.title()}")
+        if normalize(item) == normalized_input:
+
+            info = data[item]
+
+            st.success(f"Found: {item.title()}")
 
             col1, col2 = st.columns(2)
 
             with col1:
-                st.metric("💰 Price", data["price"])
+                st.metric("💰 Price", info["price"])
 
             with col2:
-                st.metric("📊 Status", data["status"])
+                st.metric("📊 Status", info["status"])
 
             st.subheader("🗡️ Obtainable From")
 
-            for sword in data["swords"]:
+            for sword in info["swords"]:
                 st.markdown(f"- **{sword}**")
 
-            found = True
-            break
+            return
 
-    if not found:
-        st.error("Pose not found")
+    st.error("Not Found")
+
+
+if user_input:
+
+    if category == "Poses":
+        search(poses)
+
+    if category == "Finishers":
+        search(finishers)
