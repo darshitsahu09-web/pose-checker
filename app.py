@@ -7,8 +7,7 @@ st.set_page_config(
 )
 
 def normalize(text):
-    return text.lower().replace(" ", "")
-
+    return text.lower().replace(" ", "").replace("'", "")
 
 # ---------------- POSES ---------------- #
 
@@ -262,46 +261,52 @@ finishers = {
 
 
 # ---------------- BOOKS ---------------- #
-
 books = {
 
     "cyberbooks": {
+        "aliases": ["cyber", "cyberbook", "cyber books"],
         "price": "20m",
         "status": "Stable",
         "swords": ["Book"]
     },
 
     "shadowbooks": {
+        "aliases": ["shadow", "shadowbook"],
         "price": "5m+-",
         "status": "Stable",
         "swords": ["Book"]
     },
 
     "dragonbooks": {
+        "aliases": ["dragon", "dragonbook"],
         "price": "1.5m+",
         "status": "Stable",
         "swords": ["Book"]
     },
 
     "cosmicbooks": {
+        "aliases": ["cosmic", "cosmicbook"],
         "price": "3.5m+-",
         "status": "Stable",
         "swords": ["Book"]
     },
 
     "skybooks": {
+        "aliases": ["sky", "skybook"],
         "price": "2m",
         "status": "Stable",
         "swords": ["Book"]
     },
 
-      "rosebooks": {
+    "rosebooks": {
+        "aliases": ["rose", "rosebook"],
         "price": "600k",
         "status": "Stable",
         "swords": ["Book"]
     }
 
 }
+
 
 # ---------------- UI ---------------- #
 
@@ -326,7 +331,11 @@ def search(data):
 
     for item in data:
 
-        if normalize(item) == normalized_input:
+        aliases = data[item].get("aliases", [])
+
+        if normalize(item) == normalized_input or any(
+            normalize(alias) == normalized_input for alias in aliases
+        ):
 
             info = data[item]
 
@@ -360,3 +369,6 @@ if user_input:
 
     if category == "Books":
         search(books)
+
+
+    
