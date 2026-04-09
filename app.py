@@ -19,7 +19,7 @@ poses = {
     },
 
     "laidback": {
-        "price": "600+-",
+        "price": "600m+-",
         "status": "Stable",
         "swords": ["Divine Shadow"]
     },
