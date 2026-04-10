@@ -226,37 +226,68 @@ poses = {
 
 finishers = {
 
-    "thousanddeaths": {
-        "price": "40m",
-        "status": "Stable",
-        "swords": ["Limited Pack"]
-    },
+"thousanddeaths": {
+    "price": "40m",
+    "status": "Stable",
+    "swords": ["Limited Pack"],
+    "aliases": [
+        "thousand",
+        "1000 deaths",
+        "1000deaths",
+        "td",
+        "thousand death"
+    ]
+},
 
-    "hanabatake": {
-        "price": "10m-",
-        "status": "Stable",
-        "swords": ["Limited Pack"]
-    },
+"hanabatake": {
+    "price": "10m-",
+    "status": "Stable",
+    "swords": ["Limited Pack"],
+    "aliases": [
+        "hana",
+        "hanab",
+        "flower",
+        "hanabat"
+    ]
+},
 
-    "gamblertoss": {
-        "price": "6m+-",
-        "status": "Stable",
-        "swords": ["Limited Pack"]
-    },
+"gamblertoss": {
+    "price": "6m+-",
+    "status": "Stable",
+    "swords": ["Limited Pack"],
+    "aliases": [
+        "gambler",
+        "gamble",
+        "gt",
+        "toss"
+    ]
+},
 
-    "jinglebarrage": {
-        "price": "1m+-",
-        "status": "Stable",
-        "swords": ["Limited Pack"]
-    },
+"jinglebarrage": {
+    "price": "1m+-",
+    "status": "Stable",
+    "swords": ["Limited Pack"],
+    "aliases": [
+        "jingle",
+        "jb",
+        "bells",
+        "jingle barrage"
+    ]
+},
 
-    "soulreaper": {
-        "price": "15m+-",
-        "status": "Stable",
-        "swords": ["Limited Pack"]
-    },
+"soulreaper": {
+    "price": "15m+-",
+    "status": "Stable",
+    "swords": ["Limited Pack"],
+    "aliases": [
+        "soul",
+        "reaper",
+        "sr",
+        "soul reap"
+    ]
+},
 
-   "cupidstrap": {
+"cupidstrap": {
     "price": "20m+-",
     "status": "Stable",
     "swords": ["Limited Pack"],
@@ -264,73 +295,118 @@ finishers = {
         "cupid",
         "cupid trap",
         "cupids trap",
-        "cupids",
         "ct",
-        "heart trap",
-        "love trap"
+        "heart trap"
     ]
 },
 
-    "hairslick": {
-        "price": "25m-30m",
-        "status": "Stable",
-        "swords": ["Limited Pack"]
-    },
+"hairslick": {
+    "price": "25m-30m",
+    "status": "Stable",
+    "swords": ["Limited Pack"],
+    "aliases": [
+        "hair",
+        "slick",
+        "hs",
+        "hairs"
+    ]
+},
 
-    "colossaldrill": {
-        "price": "10m-15m",
-        "status": "Stable",
-        "swords": ["Limited Pack"]
-    },
+"colossaldrill": {
+    "price": "10m-15m",
+    "status": "Stable",
+    "swords": ["Limited Pack"],
+    "aliases": [
+        "colossal",
+        "drill",
+        "cd",
+        "big drill"
+    ]
+},
 
 "axecutor": {
     "price": "200k",
     "status": "Stable",
     "swords": ["Finisher Pack"],
-    "aliases": ["axe", "axecution", "axec", "ax"]
+    "aliases": [
+        "axe",
+        "axecution",
+        "axec",
+        "ax"
+    ]
 },
 
 "hollowbreaker": {
     "price": "200k",
     "status": "Stable",
     "swords": ["Finisher Pack"],
-    "aliases": ["hollow", "hollowbreak", "hb"]
+    "aliases": [
+        "hollow",
+        "hollow break",
+        "hb",
+        "breaker"
+    ]
 },
 
 "oneshot": {
     "price": "200k",
     "status": "Stable",
     "swords": ["Finisher Pack"],
-    "aliases": ["one", "oneshotfin", "1shot", "one-shot"]
+    "aliases": [
+        "one",
+        "1shot",
+        "one shot",
+        "os"
+    ]
 },
 
 "flashkill": {
     "price": "200k",
     "status": "Stable",
     "swords": ["Finisher Pack"],
-    "aliases": ["flash", "fk", "flashk"]
+    "aliases": [
+        "flash",
+        "flash kill",
+        "fk",
+        "flashk"
+    ]
 },
 
 "monarchscall": {
     "price": "500k - 1m",
     "status": "Stable",
     "swords": ["Finisher Pack"],
-    "aliases": ["monarch", "monarchcall", "mc"]
+    "aliases": [
+        "monarch",
+        "monarch call",
+        "mc",
+        "monarchs"
+    ]
 },
 
 "finaltrick": {
     "price": "500k - 1m",
     "status": "Stable",
     "swords": ["Finisher Pack"],
-    "aliases": ["final", "trick", "ft"]
+    "aliases": [
+        "final",
+        "trick",
+        "ft",
+        "final trick"
+    ]
 },
 
 "flushout": {
     "price": "500k - 1m",
     "status": "Stable",
     "swords": ["Finisher Pack"],
-    "aliases": ["flush", "fo", "flushoutfin"]
-},
+    "aliases": [
+        "flush",
+        "flush out",
+        "fo",
+        "flushout"
+    ]
+}
 
 }
 
