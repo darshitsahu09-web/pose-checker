@@ -464,10 +464,7 @@ category = st.selectbox(
 
 st.divider()
 
-user_input = st.text_input(
-    "🔍 Enter Name",
-    placeholder="Example: Authority"
-)
+user_input = st.text_input("🔍 Enter Name")
 
 
 def search(data):
