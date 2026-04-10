@@ -256,11 +256,20 @@ finishers = {
         "swords": ["Limited Pack"]
     },
 
-    "cupidstrap": {
-        "price": "20m+-",
-        "status": "Stable",
-        "swords": ["Limited Pack"]
-    },
+   "cupidstrap": {
+    "price": "20m+-",
+    "status": "Stable",
+    "swords": ["Limited Pack"],
+    "aliases": [
+        "cupid",
+        "cupid trap",
+        "cupids trap",
+        "cupids",
+        "ct",
+        "heart trap",
+        "love trap"
+    ]
+},
 
     "hairslick": {
         "price": "25m-30m",
