@@ -17,6 +17,7 @@ poses = {
 
     # High Tier
     "authority": {
+        "aliases": ["author", "auth"],
         "price": "2.5b+-",
         "status": "Stable",
         "swords": ["Diamond Aegis"]
@@ -30,114 +31,133 @@ poses = {
     },
 
     "soulstep": {
+        "aliases": ["step", "soul"],
         "price": "160m+-",
         "status": "Stable",
         "swords": ["Soulblade"]
     },
 
     "gracebound": {
+        "aliases": ["bound", "grace"],
         "price": "300m-",
         "status": "Stable",
         "swords": ["Crystal Dahlia"]
     },
 
     "stallsword": {
+        "aliases": ["sword", "stall"],
         "price": "200m-220m",
         "status": "Stable",
         "swords": ["Lotus Oblivion"]
     },
 
     "driftfall": {
+        "aliases": ["drift", "drft","fall"],
         "price": "190m+",
         "status": "Rising",
         "swords": ["Fallen Aphelion"]
     },
 
     "reckless": {
+        "aliases": ["less", "reck"],
         "price": "345m+",
         "status": "Rising",
         "swords": ["Colossal Blazehead", "Nutcracker"]
     },
 
     "overdrive": {
+        "aliases": ["over", "drive","od"],
         "price": "140m+-",
         "status": "Stable",
         "swords": ["Inferno Blade"]
     },
 
     "backlash": {
+        "aliases": ["back", "lash","bl"],
         "price": "150m+-",
         "status": "Stable",
         "swords": ["Enigma", "Cyber Enigma", "Winter Scythe", "Eclipse X", "Protector"]
     },
 
     "overrule": {
+        "aliases": ["or", "rule"],
         "price": "80m+-",
         "status": "Stable",
         "swords": ["Leviathan Judicator"]
     },
 
     "stillblade": {
+        "aliases": ["still", "blade"],
         "price": "90m-",
         "status": "Stable",
         "swords": ["Amethyst Oblivion"]
     },
 
     "resolve": {
+        "aliases": ["rslv", "solve"],
         "price": "100m+-",
         "status": "Stable",
         "swords": ["Pink Pearl Sword"]
     },
 
     "focus": {
+        "aliases": ["cus", "fo"],
         "price": "65m-70m",
         "status": "Stable",
         "swords": ["Dragonheart"]
     },
 
     "stable": {
+        "aliases": ["stbl"],
         "price": "30m-",
         "status": "Stable",
         "swords": ["Gemblade"]
     },
 
     "vigor": {
+        "aliases": ["vgr"],
         "price": "40m+-",
         "status": "Stable",
         "swords": ["Divine Slayer"]
     },
 
     "strikeform": {
+        "aliases": ["strike"],
         "price": "25m-30m",
         "status": "Stable",
         "swords": ["Tri Heat Scythe"]
     },
 
     "lastoath": {
+        "aliases": ["oath", "last"],
         "price": "25m",
         "status": "Stable",
         "swords": ["Elf Enforcer", "Olimpus Sword"]
     },
 
     "cursed": {
+        "aliases": ["curse"],
         "price": "20m+-",
         "status": "Stable",
         "swords": ["Cursed Spirit Blade"]
     },
 
     "backstab": {
+        "aliases": ["stab"],
         "price": "20m+-",
         "status": "Stable",
         "swords": ["Wrath Blade"]
     },
 
     "steady": {
+        "aliases": ["stdy"],
         "price": "15m+-",
         "status": "Stable",
         "swords": ["Spirit Scythe"]
     },
 
     "valor": {
+        "aliases": ["lor"],
         "price": "15m+-",
         "status": "Stable",
         "swords": ["Darkness"]
