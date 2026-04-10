@@ -694,7 +694,92 @@ explosions = {
         "nova shock",
         "ns"
     ]
-}
+},
+    "meteorstrike": {
+    "price": "50k - 200k",
+    "status": "Stable",
+    "swords": ["Explosion Pack", "Trading"],
+    "aliases": [
+        "meteor strike",
+        "meteor",
+        "ms",
+        "meteorstrike explosion"
+    ]
+},
+
+"abyssburn": {
+    "price": "50k - 200k",
+    "status": "Stable",
+    "swords": ["Explosion Pack", "Trading"],
+    "aliases": [
+        "abyss burn",
+        "abyss",
+        "ab",
+        "abyssburn explosion"
+    ]
+},
+
+"dragonsroar": {
+    "price": "50k - 200k",
+    "status": "Stable",
+    "swords": ["Explosion Pack", "Trading"],
+    "aliases": [
+        "dragon roar",
+        "dragons roar",
+        "dragon",
+        "dr",
+        "dragonsroar explosion"
+    ]
+},
+
+"shadowpunch": {
+    "price": "500k",
+    "status": "Stable",
+    "swords": ["Explosion Pack", "Trading"],
+    "aliases": [
+        "shadow punch",
+        "shadow",
+        "sp",
+        "shadowpunch explosion"
+    ]
+},
+
+"rollerdrop": {
+    "price": "500k",
+    "status": "Stable",
+    "swords": ["Explosion Pack", "Trading"],
+    "aliases": [
+        "roller drop",
+        "roller",
+        "rd",
+        "rollerdrop explosion"
+    ]
+},
+
+"heavenpiercer": {
+    "price": "500k",
+    "status": "Stable",
+    "swords": ["Explosion Pack", "Trading"],
+    "aliases": [
+        "haven piercer",
+        "heaven",
+        "hp",
+        "heavenpiercer explosion"
+    ]
+},
+
+"divinejudgement": {
+    "price": "500k",
+    "status": "Stable",
+    "swords": ["Explosion Pack", "Trading"],
+    "aliases": [
+        "divine judgement",
+        "divine judgment",
+        "divine",
+        "dj",
+        "divinejudgement explosion"
+    ]
+},
 
 }
 
