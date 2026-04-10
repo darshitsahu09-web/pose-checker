@@ -323,6 +323,8 @@ finishers = {
     "aliases": ["flush", "fo", "flushoutfin"]
 },
 
+}
+
 
 # ---------------- BOOKS ---------------- #
 books = {
