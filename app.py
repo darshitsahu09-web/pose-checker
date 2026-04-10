@@ -275,6 +275,54 @@ finishers = {
     }
 
 }
+"axecutor": {
+    "price": "200k",
+    "status": "Stable",
+    "swords": ["Finisher Pack"],
+    "aliases": ["axe", "axecution", "axec", "ax"]
+},
+
+"hollowbreaker": {
+    "price": "200k",
+    "status": "Stable",
+    "swords": ["Finisher Pack"],
+    "aliases": ["hollow", "hollowbreak", "hb"]
+},
+
+"oneshot": {
+    "price": "200k",
+    "status": "Stable",
+    "swords": ["Finisher Pack"],
+    "aliases": ["one", "oneshotfin", "1shot", "one-shot"]
+},
+
+"flashkill": {
+    "price": "200k",
+    "status": "Stable",
+    "swords": ["Finisher Pack"],
+    "aliases": ["flash", "fk", "flashk"]
+},
+
+"monarchscall": {
+    "price": "500k - 1m",
+    "status": "Stable",
+    "swords": ["Finisher Pack"],
+    "aliases": ["monarch", "monarchcall", "mc"]
+},
+
+"finaltrick": {
+    "price": "500k - 1m",
+    "status": "Stable",
+    "swords": ["Finisher Pack"],
+    "aliases": ["final", "trick", "ft"]
+},
+
+"flushout": {
+    "price": "500k - 1m",
+    "status": "Stable",
+    "swords": ["Finisher Pack"],
+    "aliases": ["flush", "fo", "flushoutfin"]
+},
 
 
 # ---------------- BOOKS ---------------- #
