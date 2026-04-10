@@ -32,7 +32,7 @@ poses = {
 
     "soulstep": {
         "aliases": ["step", "soul"],
-        "price": "160m+-",
+        "price": "170m+-",
         "status": "Stable",
         "swords": ["Soulblade"]
     },
@@ -74,7 +74,7 @@ poses = {
 
     "backlash": {
         "aliases": ["back", "lash","bl"],
-        "price": "150m+-",
+        "price": "140m+-",
         "status": "Stable",
         "swords": ["Enigma", "Cyber Enigma", "Winter Scythe", "Eclipse X", "Protector"]
     },
