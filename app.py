@@ -787,7 +787,11 @@ explosions = {
 
 st.title("⚔️ Death Ball Values")
 
-category = st.selectbox(
+category = st.radio(
+    "📂 Select Category",
+    ["Poses", "Finishers", "Books", "Skins", "Explosions"],
+    horizontal=True
+)
     "Select Category",
     ["Poses", "Finishers", "Books","Skins","Explosions"]
 )
@@ -848,4 +852,6 @@ if user_input:
     if category == "Explosions":
         search(explosions)
 
-    
+    st.divider()
+
+st.caption("⚔️ Death Ball Values • Community Value List")
