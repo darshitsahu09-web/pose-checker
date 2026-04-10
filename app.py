@@ -272,9 +272,8 @@ finishers = {
         "price": "10m-15m",
         "status": "Stable",
         "swords": ["Limited Pack"]
-    }
+    },
 
-}
 "axecutor": {
     "price": "200k",
     "status": "Stable",
