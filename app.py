@@ -787,13 +787,25 @@ explosions = {
 
 st.title("⚔️ Death Ball Values")
 
+st.markdown("""
+### 📊 Value List & Trading Guide
+
+Search for:
+- ⚔️ Poses  
+- 💥 Explosions  
+- 🎯 Finishers  
+- 📚 Books  
+- 🎨 Skins  
+
+Type any name to see value instantly.
+""")
+
+st.divider()
+
 category = st.radio(
     "📂 Select Category",
     ["Poses", "Finishers", "Books", "Skins", "Explosions"],
     horizontal=True
-)
-    "Select Category",
-    ["Poses", "Finishers", "Books","Skins","Explosions"]
 )
 
 st.divider()
@@ -817,18 +829,30 @@ def search(data):
 
             st.success(f"Found: {item.title()}")
 
+            st.markdown("---")
+
             col1, col2 = st.columns(2)
 
             with col1:
                 st.metric("💰 Price", info["price"])
 
             with col2:
-                st.metric("📊 Status", info["status"])
+                st.write("")
 
-            st.subheader("🗡️ Obtainable From")
+            # Status Colors
+            if info["status"].lower() == "stable":
+                st.success(f"📊 Status: {info['status']}")
+
+            elif info["status"].lower() == "rising":
+                st.warning(f"📈 Status: {info['status']}")
+
+            elif info["status"].lower() == "dropping":
+                st.error(f"📉 Status: {info['status']}")
+
+            st.markdown("### 🗡️ Obtainable From")
 
             for sword in info["swords"]:
-                st.markdown(f"- **{sword}**")
+                st.markdown(f"• **{sword}**")
 
             return
 
@@ -852,6 +876,7 @@ if user_input:
     if category == "Explosions":
         search(explosions)
 
-    st.divider()
+
+st.divider()
 
 st.caption("⚔️ Death Ball Values • Community Value List")
