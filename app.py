@@ -587,13 +587,104 @@ skins = {
 }
 
 
+# ---------------- EXPLOSIONS ---------------- #
+
+explosions = {
+
+
+"voltburst": {
+    "price": "6m+-",
+    "status": "Stable",
+    "swords": ["Limited Pack", "Trading"],
+    "aliases": [
+        "volt",
+        "burst",
+        "volt burst",
+        "vb"
+    ]
+},
+
+"fallfire": {
+    "price": "3m+-",
+    "status": "Stable",
+    "swords": ["Limited Pack", "Trading"],
+    "aliases": [
+        "fall",
+        "fire fall",
+        "fall fire",
+        "ff"
+    ]
+},
+
+"jingleblast": {
+    "price": "1m-1.5m",
+    "status": "Stable",
+    "swords": ["Limited Pack", "Trading"],
+    "aliases": [
+        "jingle",
+        "blast",
+        "jingle blast",
+        "jb"
+    ]
+},
+
+"nightpop": {
+    "price": "4m-5m",
+    "status": "Stable",
+    "swords": ["Limited Pack", "Trading"],
+    "aliases": [
+        "night",
+        "pop",
+        "night pop",
+        "np"
+    ]
+},
+
+"blackhalo": {
+    "price": "3m-4m",
+    "status": "Stable",
+    "swords": ["Limited Pack", "Trading"],
+    "aliases": [
+        "black",
+        "halo",
+        "black halo",
+        "bh"
+    ]
+},
+
+"heartbreak": {
+    "price": "4m+-",
+    "status": "Stable",
+    "swords": ["Limited Pack", "Trading"],
+    "aliases": [
+        "heart",
+        "break",
+        "heart break",
+        "hb"
+    ]
+},
+
+"novashock": {
+    "price": "1.5m-2m",
+    "status": "Stable",
+    "swords": ["Limited Pack", "Trading"],
+    "aliases": [
+        "nova",
+        "shock",
+        "nova shock",
+        "ns"
+    ]
+}
+
+}
+
 # ---------------- UI ---------------- #
 
 st.title("⚔️ Death Ball Values")
 
 category = st.selectbox(
     "Select Category",
-    ["Poses", "Finishers", "Books","Skins"]
+    ["Poses", "Finishers", "Books","Skins","Explosions"]
 )
 
 st.divider()
@@ -649,5 +740,7 @@ if user_input:
     if category == "Skins":
         search(skins)
 
+    if category == "Explosions":
+        search(explosions)
 
     
