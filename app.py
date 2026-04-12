@@ -97,7 +97,7 @@ poses = {
         "aliases": ["rslv", "solve"],
         "price": "100m+-",
         "status": "Stable",
-        "swords": ["Pink Pearl Sword","Trading"
+        "swords": ["Pink Pearl Sword","Trading"]
     },
 
     "focus": {
