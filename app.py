@@ -20,183 +20,183 @@ poses = {
         "aliases": ["author", "auth"],
         "price": "2.5b+-",
         "status": "Stable",
-        "swords": ["Diamond Aegis"]
+        "swords": ["Diamond Aegis","Trading"]
     },
 
      "Laidback": {
         "aliases": ["laidback", "laid"],
         "price": "600m+-",
         "status": "Stable",
-        "swords": ["Divine Shadow"]
+        "swords": ["Divine Shadow","Trading"]
     },
 
     "soulstep": {
         "aliases": ["step", "soul"],
         "price": "170m+-",
         "status": "Stable",
-        "swords": ["Soulblade"]
+        "swords": ["Soulblade","Trading"]
     },
 
     "gracebound": {
         "aliases": ["bound", "grace"],
         "price": "300m-",
         "status": "Stable",
-        "swords": ["Crystal Dahlia"]
+        "swords": ["Crystal Dahlia","Trading"]
     },
 
     "stallsword": {
         "aliases": ["sword", "stall"],
         "price": "200m-220m",
         "status": "Stable",
-        "swords": ["Lotus Oblivion"]
+        "swords": ["Lotus Oblivion","Trading"]
     },
 
     "driftfall": {
         "aliases": ["drift", "drft","fall"],
         "price": "190m+",
         "status": "Rising",
-        "swords": ["Fallen Aphelion"]
+        "swords": ["Fallen Aphelion","Trading"]
     },
 
     "reckless": {
         "aliases": ["less", "reck"],
         "price": "345m+",
         "status": "Rising",
-        "swords": ["Colossal Blazehead", "Nutcracker"]
+        "swords": ["Colossal Blazehead", "Nutcracker","Trading"]
     },
 
     "overdrive": {
         "aliases": ["over", "drive","od"],
         "price": "140m+-",
         "status": "Stable",
-        "swords": ["Inferno Blade"]
+        "swords": ["Inferno Blade","Trading"]
     },
 
     "backlash": {
         "aliases": ["back", "lash","bl"],
         "price": "140m+-",
         "status": "Stable",
-        "swords": ["Enigma", "Cyber Enigma", "Winter Scythe", "Eclipse X", "Protector"]
+        "swords": ["Enigma", "Cyber Enigma", "Winter Scythe", "Eclipse X", "Protector","Trading"]
     },
 
     "overrule": {
         "aliases": ["or", "rule"],
         "price": "80m+-",
         "status": "Stable",
-        "swords": ["Leviathan Judicator"]
+        "swords": ["Leviathan Judicator","Trading"]
     },
 
     "stillblade": {
         "aliases": ["still", "blade"],
         "price": "90m-",
         "status": "Stable",
-        "swords": ["Amethyst Oblivion"]
+        "swords": ["Amethyst Oblivion","Trading"]
     },
 
     "resolve": {
         "aliases": ["rslv", "solve"],
         "price": "100m+-",
         "status": "Stable",
-        "swords": ["Pink Pearl Sword"]
+        "swords": ["Pink Pearl Sword","Trading"
     },
 
     "focus": {
         "aliases": ["cus", "fo"],
         "price": "65m-70m",
         "status": "Stable",
-        "swords": ["Dragonheart"]
+        "swords": ["Dragonheart","Trading"]
     },
 
     "stable": {
         "aliases": ["stbl"],
         "price": "30m-",
         "status": "Stable",
-        "swords": ["Gemblade"]
+        "swords": ["Gemblade","Trading"]
     },
 
     "vigor": {
         "aliases": ["vgr"],
         "price": "40m+-",
         "status": "Stable",
-        "swords": ["Divine Slayer"]
+        "swords": ["Divine Slayer","Trading"]
     },
 
     "strikeform": {
         "aliases": ["strike"],
         "price": "25m-30m",
         "status": "Stable",
-        "swords": ["Tri Heat Scythe"]
+        "swords": ["Tri Heat Scythe","Trading"]
     },
 
     "lastoath": {
         "aliases": ["oath", "last"],
         "price": "25m",
         "status": "Stable",
-        "swords": ["Elf Enforcer", "Olimpus Sword"]
+        "swords": ["Elf Enforcer", "Olimpus Sword","Trading"]
     },
 
     "cursed": {
         "aliases": ["curse"],
         "price": "20m+-",
         "status": "Stable",
-        "swords": ["Cursed Spirit Blade"]
+        "swords": ["Cursed Spirit Blade","Trading"]
     },
 
     "backstab": {
         "aliases": ["stab"],
         "price": "20m+-",
         "status": "Stable",
-        "swords": ["Wrath Blade"]
+        "swords": ["Wrath Blade","Trading"]
     },
 
     "steady": {
         "aliases": ["stdy"],
         "price": "15m+-",
         "status": "Stable",
-        "swords": ["Spirit Scythe"]
+        "swords": ["Spirit Scythe","Trading"]
     },
 
     "valor": {
         "aliases": ["lor"],
         "price": "15m+-",
         "status": "Stable",
-        "swords": ["Darkness"]
+        "swords": ["Darkness","Trading"]
     },
 
     # Wheel Poses
 
-    "primed": {"price": "10m-", "status": "Stable", "swords": ["Wheel"]},
-    "gunslinger": {"price": "4m+-", "status": "Stable", "swords": ["Wheel"]},
-    "resilient": {"price": "3m+-", "status": "Stable", "swords": ["Wheel"]},
-    "razor": {"price": "2m+-", "status": "Stable", "swords": ["Wheel"]},
-    "rogue": {"price": "5m+-", "status": "Stable", "swords": ["Wheel"]},
-    "phantom": {"price": "2.5m-3m", "status": "Stable", "swords": ["Wheel"]},
-    "resolute": {"price": "3m+-", "status": "Stable", "swords": ["Wheel"]},
-    "nichi": {"price": "3m+", "status": "Stable", "swords": ["Wheel"]},
-    "titan": {"price": "2m+-", "status": "Stable", "swords": ["Wheel"]},
-    "battlefan": {"price": "2.5m+-", "status": "Stable", "swords": ["Wheel"]},
-    "bow": {"price": "2m+-", "status": "Stable", "swords": ["Wheel"]},
-    "triscythe": {"price": "2m+-", "status": "Stable", "swords": ["Wheel"]},
+    "primed": {"price": "10m-", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "gunslinger": {"price": "4m+-", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "resilient": {"price": "3m+-", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "razor": {"price": "2m+-", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "rogue": {"price": "5m+-", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "phantom": {"price": "2.5m-3m", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "resolute": {"price": "3m+-", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "nichi": {"price": "3m+", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "titan": {"price": "2m+-", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "battlefan": {"price": "2.5m+-", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "bow": {"price": "2m+-", "status": "Stable", "swords": ["Wheel","Trading"]},
+    "triscythe": {"price": "2m+-", "status": "Stable", "swords": ["Wheel","Trading"]},
     
     #Pack Poses
     
-    "skyrest": {"price": "1m-", "status": "Stable", "swords": ["Pose Pack"]},
-    "jitter": {"price": "1m-", "status": "Stable", "swords": ["Pose Pack"]},
-    "stand": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "balance": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "protector": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "watchpoint": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "prepared": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "headoff": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "serenity": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "glory": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "override": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "overclock": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack"]},
-    "whirlcut": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack"]},
-     "ready": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
-     "airsurf": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
-     "cyclone": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
-     "crowned": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack"]},
+    "skyrest": {"price": "1m-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "jitter": {"price": "1m-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "stand": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "balance": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "protector": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "watchpoint": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "prepared": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "headoff": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "serenity": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "glory": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "override": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "overclock": {"price": "200k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+    "whirlcut": {"price": "20k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+     "ready": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+     "airsurf": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+     "cyclone": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
+     "crowned": {"price": "500k+-", "status": "Stable", "swords": ["Pose Pack","Trading"]},
     "i'mfine": {
     "aliases": [
         "i'm fine",
@@ -207,7 +207,7 @@ poses = {
     ],
     "price": "500k+-",
     "status": "Stable",
-    "swords": ["Pose Pack"]
+    "swords": ["Pose Pack","Trading"]
 },
     
     
@@ -217,27 +217,32 @@ poses = {
     "backdraw": {
         "price": "90m-100m",
         "status": "Stable",
-        "swords": ["Soulpiercer"]
+        "swords": ["Soulpiercer","Trading"]
     },
 
     "resonance": {
         "price": "80-90m",
         "status": "Stable",
-        "swords": ["Lumina"]
+        "swords": ["Lumina","Trading"]
     },
 
     "pendrath": {
         "price": "100m+-",
         "status": "Stable",
-        "swords": ["Cyber Hammer"]
+        "swords": ["Cyber Hammer","Trading"]
     },
 
       "devoted": {
         "price": "300m+",
         "status": "Stable",
-        "swords": ["Devotion"]
-    }
+        "swords": ["Devotion","Trading"]
+    },
 
+    "kunai": {
+        "price": "3-4m",
+        "status": "Stable",
+        "swords": ["Wheel","Trading"]
+    }
 }
 
 
@@ -249,7 +254,7 @@ finishers = {
 "thousanddeaths": {
     "price": "40m",
     "status": "Stable",
-    "swords": ["Limited Pack"],
+    "swords": ["Limited Pack","Trading"],
     "aliases": [
         "thousand",
         "1000 deaths",
@@ -262,7 +267,7 @@ finishers = {
 "hanabatake": {
     "price": "10m-",
     "status": "Stable",
-    "swords": ["Limited Pack"],
+    "swords": ["Limited Pack","Trading"],
     "aliases": [
         "hana",
         "hanab",
@@ -274,7 +279,7 @@ finishers = {
 "gamblertoss": {
     "price": "6m+-",
     "status": "Stable",
-    "swords": ["Limited Pack"],
+    "swords": ["Limited Pack","Trading"],
     "aliases": [
         "gambler",
         "gamble",
@@ -286,7 +291,7 @@ finishers = {
 "jinglebarrage": {
     "price": "1m+-",
     "status": "Stable",
-    "swords": ["Limited Pack"],
+    "swords": ["Limited Pack","Trading"],
     "aliases": [
         "jingle",
         "jb",
@@ -298,7 +303,7 @@ finishers = {
 "soulreaper": {
     "price": "15m+-",
     "status": "Stable",
-    "swords": ["Limited Pack"],
+    "swords": ["Limited Pack","Trading"],
     "aliases": [
         "soul",
         "reaper",
@@ -310,7 +315,7 @@ finishers = {
 "cupidstrap": {
     "price": "20m+-",
     "status": "Stable",
-    "swords": ["Limited Pack"],
+    "swords": ["Limited Pack","Trading"],
     "aliases": [
         "cupid",
         "cupid trap",
@@ -323,7 +328,7 @@ finishers = {
 "hairslick": {
     "price": "25m-30m",
     "status": "Stable",
-    "swords": ["Limited Pack"],
+    "swords": ["Limited Pack","Trading"],
     "aliases": [
         "hair",
         "slick",
@@ -335,7 +340,7 @@ finishers = {
 "colossaldrill": {
     "price": "10m-15m",
     "status": "Stable",
-    "swords": ["Limited Pack"],
+    "swords": ["Limited Pack","Trading"],
     "aliases": [
         "colossal",
         "drill",
@@ -347,7 +352,7 @@ finishers = {
 "axecutor": {
     "price": "200k",
     "status": "Stable",
-    "swords": ["Finisher Pack"],
+    "swords": ["Finisher Pack","Trading"],
     "aliases": [
         "axe",
         "axecution",
@@ -359,7 +364,7 @@ finishers = {
 "hollowbreaker": {
     "price": "200k",
     "status": "Stable",
-    "swords": ["Finisher Pack"],
+    "swords": ["Finisher Pack","Trading"],
     "aliases": [
         "hollow",
         "hollow break",
@@ -371,7 +376,7 @@ finishers = {
 "oneshot": {
     "price": "200k",
     "status": "Stable",
-    "swords": ["Finisher Pack"],
+    "swords": ["Finisher Pack","Trading"],
     "aliases": [
         "one",
         "1shot",
@@ -383,7 +388,7 @@ finishers = {
 "flashkill": {
     "price": "200k",
     "status": "Stable",
-    "swords": ["Finisher Pack"],
+    "swords": ["Finisher Pack","Trading"],
     "aliases": [
         "flash",
         "flash kill",
@@ -395,7 +400,7 @@ finishers = {
 "monarchscall": {
     "price": "500k - 1m",
     "status": "Stable",
-    "swords": ["Finisher Pack"],
+    "swords": ["Finisher Pack","Trading"],
     "aliases": [
         "monarch",
         "monarch call",
@@ -407,7 +412,7 @@ finishers = {
 "finaltrick": {
     "price": "500k - 1m",
     "status": "Stable",
-    "swords": ["Finisher Pack"],
+    "swords": ["Finisher Pack","Trading"],
     "aliases": [
         "final",
         "trick",
@@ -419,7 +424,7 @@ finishers = {
 "flushout": {
     "price": "500k - 1m",
     "status": "Stable",
-    "swords": ["Finisher Pack"],
+    "swords": ["Finisher Pack","Trading"],
     "aliases": [
         "flush",
         "flush out",
@@ -438,42 +443,42 @@ books = {
         "aliases": ["cyber", "cyberbook", "cyber books"],
         "price": "20m",
         "status": "Stable",
-        "swords": ["Limited Store"]
+        "swords": ["Limited Store","Trading"]
     },
 
     "shadowbooks": {
         "aliases": ["shadow", "shadowbook"],
         "price": "5m+-",
         "status": "Stable",
-        "swords": ["Limited Store"]
+        "swords": ["Limited Store","Trading"]
     },
 
     "dragonbooks": {
         "aliases": ["dragon", "dragonbook"],
         "price": "1.5m+",
         "status": "Stable",
-        "swords": ["Limited Store"]
+        "swords": ["Limited Store","Trading"]
     },
 
     "cosmicbooks": {
         "aliases": ["cosmic", "cosmicbook"],
         "price": "3.5m+-",
         "status": "Stable",
-        "swords": ["Limited Store"]
+        "swords": ["Limited Store","Trading"]
     },
 
     "skybooks": {
         "aliases": ["sky", "skybook"],
         "price": "2m",
         "status": "Stable",
-        "swords": ["----"]
+        "swords": ["----","Trading"]
     },
 
     "rosebooks": {
         "aliases": ["rose", "rosebook"],
         "price": "600k",
         "status": "Stable",
-        "swords": ["----"]
+        "swords": ["----","Trading"]
     }
 
 }
@@ -487,28 +492,28 @@ skins = {
         "aliases": ["blood blue", "bloodblue skin", "blue blood"],
         "price": "10m-",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "bloodpink": {
         "aliases": ["blood pink", "bloodpink skin", "pink blood"],
         "price": "10m-",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "radiantwing": {
         "aliases": ["radiant wing", "radiant wings", "radiant"],
         "price": "15m+",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "voidwing": {
         "aliases": ["void wing", "void wings", "void"],
         "price": "15m+",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "blazingarmour": {
@@ -521,7 +526,7 @@ skins = {
         ],
         "price": "6m+-",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "flaringarmour": {
@@ -534,7 +539,7 @@ skins = {
         ],
         "price": "6m+-",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "crypticvision": {
@@ -545,7 +550,7 @@ skins = {
         ],
         "price": "5m+-",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "player654": {
@@ -556,7 +561,7 @@ skins = {
         ],
         "price": "1m+-",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "plagueskin": {
@@ -567,7 +572,7 @@ skins = {
         ],
         "price": "1.5m+-",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "visarawings": {
@@ -579,7 +584,7 @@ skins = {
         ],
         "price": "2m+-",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "marblecloak": {
@@ -590,7 +595,7 @@ skins = {
         ],
         "price": "120m+",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     },
 
     "royalecloak": {
@@ -601,7 +606,7 @@ skins = {
         ],
         "price": "2m+-",
         "status": "Stable",
-        "swords": ["Limited Pack"]
+        "swords": ["Limited Pack","Trading"]
     }
 
 }
